@@ -1,0 +1,171 @@
+-<body style="background-color:powderblue;">--
+<head>
+<style>
+p.normal {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: small-caps;
+}
+</style>
+</head>
+<style>
+#div1 {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+
+<p></p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="https://i.pinimg.com/564x/80/53/76/805376ee724a3b564902afeaa30977f0.jpg" draggable="true" ondragstart="drag(event)" width="80" height="80">
+
+<center>
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<center>
+
+<p id="demo"></p>
+<title>CSS Template</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white ;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+
+
+
+
+<header>
+  <h2 style="background-color:powderblue; "> IS TEAM</h2>
+  
+</header>
+
+
+  
+  <article>
+    <h1 style="color:red;">Welcome to computer club</h1>
+    <p class="small">This is your guide to Collage of computer and information science from IS student .</p>
+     <p style="color:gray;"> <i>Computer has become very important nowadays because it is very much accurate, fast and can accomplish many tasks easily. Otherwise to complete those tasks manually much more time is required. It can do very big calculations in just a fraction of a second. Moreover it can store huge amount of data in it. We also get information on different aspects using internet on our computer</i></p>
+   
+  </article>
+  
+  <p><a href="/list1.html">List of Majors</a></p>
+   <p><a href="/table.html">Table of allocation rate</a></p>
+     <p><a href="/sugetion.html">Your Suggestion</a></p>
+   <p><a href="/Java%20recourses.html">Learning resources</a></p>
+
+<center>
+
+<img src="https://onlinedegreeportal.com/wp-content/uploads/2020/11/Best-Online-Computer-Science-Bachelor-Degree.jpg" alt="Trulli" width="550" height="300">
+<center>
+<center>
+<div style="background-color:#FFFFFF">
+<br>
+<center>
+<h2><p><a href="/Information%20System.html">|  information System  |  </a> <a href="/computer%20science.html"> |  Computer Science  |  </a>  <a href="/Information%20technology.html">    
+  |  Information Technology  |    </a>    <a href="/Software%20Engineerng.html">|  Software Engineering  |   </a></p></h2><br></center></div>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v0scc0YdhMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+
+
+<footer>
+  <p style="background-color:powderblue;"><a href="https://ccis.ksu.edu.sa/en/it">https://ccis.ksu.edu.sa/en/it</a></p><a href="https://ccis.ksu.edu.sa/en/it">
+  </a><p style="background-color:powderblue;"><a href="https://ccis.ksu.edu.sa/en/it"></a><a href="https://ccis.ksu.edu.sa/en/is">https://ccis.ksu.edu.sa/en/is</a></p><a href="https://ccis.ksu.edu.sa/en/is">
+ <p style="background-color:powderblue;"><a
+ <p><a href="mailto:ISteam441@outlook.com">ISteam441@outlook.com</a></p>
+
+
+  
+</a></footer><a href="https://ccis.ksu.edu.sa/en/is">
+
+
+</a></center></center></center></center></center></body>
+
